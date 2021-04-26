@@ -1,6 +1,5 @@
 #include <stdio.h>
-//#define MODE 1
-// It Works for MODE < 7
+#define MODE 1
 int check (int a,int b,int c,int d,int a1,int b1,int c1,int d1) {       //Function that checks if data is identical with the correct format of WAVE files
     if (a == a1 && b == b1 && c == c1 && d == d1) {
         return -1;
